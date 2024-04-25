@@ -176,27 +176,30 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-03-09 03:39:40 +0000",
-      "minecraft:savanna_plateau": "2024-03-12 13:56:10 +0000",
-      "minecraft:beach": "2024-03-07 21:09:23 +0000",
-      "minecraft:dark_forest": "2024-03-07 19:13:00 +0000",
       "minecraft:forest": "2024-03-07 18:42:52 +0000",
       "minecraft:taiga": "2024-03-09 03:39:58 +0000",
-      "minecraft:sparse_jungle": "2024-03-07 18:40:02 +0000",
       "minecraft:deep_ocean": "2024-03-09 03:36:19 +0000",
-      "minecraft:river": "2024-03-07 19:06:31 +0000",
-      "minecraft:lukewarm_ocean": "2024-03-09 04:13:29 +0000",
       "minecraft:lush_caves": "2024-03-07 19:15:52 +0000",
       "minecraft:deep_cold_ocean": "2024-03-09 03:39:34 +0000",
-      "minecraft:old_growth_birch_forest": "2024-03-07 19:00:30 +0000",
       "minecraft:jungle": "2024-03-07 19:08:05 +0000",
       "minecraft:ocean": "2024-03-08 04:19:37 +0000",
       "minecraft:cherry_grove": "2024-03-09 03:49:47 +0000",
       "minecraft:sunflower_plains": "2024-03-09 03:49:17 +0000",
       "minecraft:birch_forest": "2024-03-07 19:00:29 +0000",
-      "minecraft:savanna": "2024-03-09 03:57:34 +0000",
       "minecraft:bamboo_jungle": "2024-03-07 19:10:59 +0000",
-      "minecraft:plains": "2024-03-08 04:18:45 +0000",
-      "minecraft:deep_lukewarm_ocean": "2024-03-09 18:07:04 +0000"
+      "minecraft:windswept_savanna": "2024-03-15 18:06:39 +0000",
+      "minecraft:deep_lukewarm_ocean": "2024-03-09 18:07:04 +0000",
+      "minecraft:savanna_plateau": "2024-03-12 13:56:10 +0000",
+      "minecraft:beach": "2024-03-07 21:09:23 +0000",
+      "minecraft:dark_forest": "2024-03-07 19:13:00 +0000",
+      "minecraft:mangrove_swamp": "2024-03-15 18:06:59 +0000",
+      "minecraft:sparse_jungle": "2024-03-07 18:40:02 +0000",
+      "minecraft:river": "2024-03-07 19:06:31 +0000",
+      "minecraft:lukewarm_ocean": "2024-03-09 04:13:29 +0000",
+      "minecraft:old_growth_birch_forest": "2024-03-07 19:00:30 +0000",
+      "minecraft:deep_dark": "2024-03-15 14:56:01 +0000",
+      "minecraft:savanna": "2024-03-09 03:57:34 +0000",
+      "minecraft:plains": "2024-03-08 04:18:45 +0000"
     },
     "done": false
   },
@@ -271,10 +274,11 @@
       "minecraft:pillager": "2024-03-07 22:13:30 +0000",
       "minecraft:blaze": "2024-03-11 20:59:16 +0000",
       "minecraft:skeleton": "2024-03-07 18:42:57 +0000",
+      "minecraft:wither_skeleton": "2024-03-11 20:57:28 +0000",
+      "minecraft:ghast": "2024-03-15 17:56:31 +0000",
       "minecraft:piglin": "2024-03-11 16:47:42 +0000",
       "minecraft:magma_cube": "2024-03-11 21:17:31 +0000",
       "minecraft:spider": "2024-03-07 19:00:14 +0000",
-      "minecraft:wither_skeleton": "2024-03-11 20:57:28 +0000",
       "minecraft:zombie": "2024-03-07 18:58:27 +0000",
       "minecraft:creeper": "2024-03-08 23:23:38 +0000",
       "minecraft:drowned": "2024-03-09 04:19:49 +0000",
@@ -2317,6 +2321,162 @@
   "minecraft:nether/brew_potion": {
     "criteria": {
       "potion": "2024-03-12 14:08:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-03-14 01:41:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-03-14 01:41:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-03-14 21:56:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2024-03-14 21:56:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-03-14 21:56:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-03-15 17:56:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-03-15 21:05:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2024-03-15 21:08:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2024-03-15 21:09:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-03-15 21:09:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-03-15 21:23:37 +0000"
     },
     "done": true
   },
